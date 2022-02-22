@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/container_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="48dp">
+
+        <ImageView
+            android:id="@+id/photo_u"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_photo" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/container_photo"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Иван Смирнов"
+        android:textColor="@color/colorChatText"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/from_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/container_photo"
+        android:layout_below="@+id/name"
+        android:fontFamily="@font/montserrat_regular"
+        android:maxLines="1"
+        android:text="Вы:"
+        android:textColor="@color/purple_200"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/sms_from_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/from_me"
+        android:fontFamily="@font/montserrat_regular"
+        android:maxLines="1"
+        android:text="1011011000100111001011000100101101011010110"
+        android:textColor="@color/colorChatText"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/circle_indicator_from_chat"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/circle_indicator_from_chat"/>
+
+</RelativeLayout>

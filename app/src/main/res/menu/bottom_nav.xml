@@ -1,0 +1,23 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home_"
+        android:icon="@drawable/ic_nav_home"
+        android:title="@string/FragmentMain"/>
+    <item
+        android:id="@+id/nav_ribbon_"
+        android:icon="@drawable/ic_nav_ribbon"
+        android:title="@string/FragmentRibbon"/>
+    <item
+        android:id="@+id/nav_create_"
+        android:icon="@drawable/ic_nav_create"
+        android:title="@string/FragmentCreate" />
+    <item
+        android:id="@+id/nav_chat_"
+        android:icon="@drawable/ic_nav_chat"
+        android:title="@string/FragmentChat"/>
+    <item
+        android:id="@+id/nav_acc_"
+        android:icon="@drawable/ic_nav_acc"
+        android:title="@string/FragmentAcc"/>
+</menu>

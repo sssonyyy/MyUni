@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animationCache="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/VUZ"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/bottom_line_fragment_title"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/search_field_vuz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_regular"
+                android:hint="@string/HintSearch"
+                android:paddingVertical="16dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_search_vuz"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="12dp"
+                app:backgroundTint="@color/purple_100"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/ic_baseline_search_24"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup_vuz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="16dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter1"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="МГИМО"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter2"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="МГУ"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter3"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ВШЭ"
+                android:textAppearance="@style/filterChipsFF" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Тема проекта"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/bottom_line_fragment_title"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/search_field_announce"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_regular"
+                android:hint="@string/HintSearch"
+                android:paddingVertical="16dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_search_announce"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="12dp"
+                app:backgroundTint="@color/purple_100"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/ic_baseline_search_24"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="16dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter4"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:chipStrokeColor="@color/purple_200"
+                android:text="стартапы"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter5"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="спорт"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter6"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="благотворительность"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter7"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="вечеринки"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter8"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="развлечения"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter9"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="концерты"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter10"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="лекции"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter11"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="учёба"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter12"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="жильё"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter13"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="курсы"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter14"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="общение"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter15"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="проекты"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter16"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="карьера"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter17"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="искусство"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter18"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="музыка"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter19"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="кулинария"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter20"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="еда"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter21"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="политика"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter22"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ВУЗ"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter23"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="отдых"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter24"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="творчество"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter25"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="клубы"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter26"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="фестивали"
+                android:textAppearance="@style/filterChipsFF" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Требования"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/bottom_line_fragment_title"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/search_field_requirements"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_regular"
+                android:hint="@string/HintSearch"
+                android:paddingVertical="16dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_search_requirements"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="12dp"
+                app:backgroundTint="@color/purple_100"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/ic_baseline_search_24"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup_requirements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="50dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter27"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photoshop"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter28"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SMM"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter29"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="дизайн"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter30"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adobe XD"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter31"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="аналитика"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter32"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PR"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter33"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Premier Pro"
+                android:textAppearance="@style/filterChipsFF" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/filter34"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Англ. яз"
+                android:textAppearance="@style/filterChipsFF" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </LinearLayout>
+</ScrollView>

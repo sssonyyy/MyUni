@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feed"
+    app:startDestination="@+id/nav_people">
+
+    <fragment
+        android:id="@+id/nav_events"
+        android:name="tm.devcraft.myuni.interfaces.fragments.ribbon.tabsFragment.EventsFragment"
+        tools:layout="@layout/tab_fragment_events">
+        <action
+            android:id="@+id/action_feed_events_to_people"
+            app:destination="@id/nav_people"/>
+        <action
+            android:id="@+id/action_feed_events_to_freelance"
+            app:destination="@id/nav_freelance"/>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_people"
+        android:name="tm.devcraft.myuni.interfaces.fragments.ribbon.tabsFragment.PeopleFragment"
+        tools:layout="@layout/tab_fragment_people">
+        <action
+            android:id="@+id/action_feed_people_to_events"
+            app:destination="@id/nav_events"/>
+        <action
+            android:id="@+id/action_feed_people_to_freelance"
+            app:destination="@id/nav_freelance"/>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_freelance"
+        android:name="tm.devcraft.myuni.interfaces.fragments.ribbon.tabsFragment.PosterFragment"
+        tools:layout="@layout/tab_fragment_announcement">
+        <action
+            android:id="@+id/action_feed_freelance_to_people"
+            app:destination="@id/nav_people"/>
+        <action
+            android:id="@+id/action_feed_freelance_to_events"
+            app:destination="@id/nav_events"/>
+    </fragment>
+
+</navigation>

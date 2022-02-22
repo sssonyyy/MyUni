@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_analytics.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_announce.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_announce_pub.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_bids.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_chat_dialog_open.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_complete_reg_screen.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_confirm_code.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_create_event.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_edit_acc.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_last_step_reg.xml" value="0.18506493506493507" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_load_screen.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_next_step_reg.xml" value="0.18" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_registration_uactivity.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_restore_pass.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_restore_pass_code.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_select_action.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_select_bottom_nav.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_select_type_acc.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_settings_acc.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/activity_sign_in_uactivity.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/fragment_account.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/fragment_chat.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/fragment_create.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/fragment_dialog.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/fragment_home.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/fragment_my_acc.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/fragment_ribbon.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/fragment_ribbon_filter.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/image_item.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/item_announce_from_create.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/item_bids.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/item_chat_dialog.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/item_event.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/item_event_from_create.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/item_main_fast_navigation.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/item_main_popular_rv.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/item_message.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/item_people_from_ribbon.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/tab_fragment_announcement.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/tab_fragment_events.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/Workstation/Desktop/MyUni/app/src/main/res/layout/tab_fragment_people.xml" value="0.22171052631578947" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/layout/activity_chat_dialog_open.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/layout/activity_select_bottom_nav.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/layout/fragment_account.xml" value="0.1299342105263158" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/layout/fragment_chat.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/layout/fragment_create.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/layout/fragment_dialog.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/layout/item_chat_dialog.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/layout/item_message.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/layout/tab_fragment_people.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Documents/MyUni/app/src/main/res/menu/bottom_nav.xml" value="0.1299342105263158" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/btn_back_from_dialog.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/btn_open_sett_dialog.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/chat_bg_favorite_list.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/chat_btn_search.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/chat_create_dialog.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/chat_dialog_attachment.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/chat_dialog_bg_item_message.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/chat_dialog_borderline_input_field.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/chat_dialog_btn_send.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/chat_dialog_open_bg.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/drawable-v24/circle_indicator_from_chat.xml" value="0.13980263157894737" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/layout/activity_chat_dialog_open.xml" value="0.2" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/layout/fragment_account.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/layout/fragment_chat.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/layout/fragment_home.xml" value="0.12960526315789472" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/layout/fragment_ribbon.xml" value="0.12960526315789472" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/layout/item_chat_dialog.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni 4/MyUni/app/src/main/res/layout/item_message.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/drawable/bottom_line_fragment_title.xml" value="0.3828125" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/drawable/custom_borderline.xml" value="0.25" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/drawable/custom_borderline_price.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/drawable/ic_baseline_add_photo.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/drawable/ic_change_post.xml" value="0.3768518518518518" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/drawable/ic_icon_awesome_heart.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/drawable/tabs_indicators.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_announce_pub.xml" value="0.25" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_complete_reg_screen.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_confirm_code.xml" value="0.2046875" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_create_announce.xml" value="0.22" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_last_step_reg.xml" value="0.33" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_load_screen.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_next_step_reg.xml" value="0.3625" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_registration_uactivity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_select_bottom_nav.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/activity_sign_in_uactivity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/fragment_account.xml" value="0.5" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/fragment_create.xml" value="0.5" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/fragment_my_acc.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/fragment_ribbon.xml" value="0.3490740740740741" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/image_item.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/item_main_fast_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/daler/Downloads/Telegram Desktop/MyUni/MyUni/app/src/main/res/layout/slider_item.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/bg_mui_dialog.xml" value="0.1401315789473684" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/bottom_line_fragment_title.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/circle.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/circle2.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/custom_borderline.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/default_dot_indicator.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/ic______.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/ic_baseline_add_photo.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/restangle.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/selected_dot_indicator.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/selected_indicator_bnv.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/selector_tab.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/tab_indicator.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/tab_indicators.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/tab_selected_bg.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/tab_unselected_bg.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/drawable/tabs_indicators.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_complete_reg_screen.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_confirm_code.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_finish_restore_pass.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_last_step_reg.xml" value="0.22" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_next_step_reg.xml" value="0.25" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_registration_uactivity.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_restore_pass.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_restore_pass_code.xml" value="0.2" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_select_action.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_select_bottom_nav.xml" value="0.2" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_select_type_acc.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/activity_sign_in_uactivity.xml" value="0.25" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/bottom_line_fragment_title.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/fragment_account.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/fragment_blank.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/fragment_chat.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/fragment_create.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/fragment_home.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/fragment_ribbon.xml" value="0.25" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/fragment_ribbon_filter.xml" value="0.2130637636080871" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/item__main_popular_rv.xml" value="0.22" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/item_main_fast_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/slider_item.xml" value="0.25" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/tab_fragment_announcement.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/tab_fragment_events.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/layout/tab_fragment_people.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/menu-v26/bottom_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/menu/bottom_nav.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/menu/bottom_navigation.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/daler/MyUni/app/src/main/res/menu/menu_main.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_complete_reg_screen.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_confirm_code.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_finish_restore_pass.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_last_step_reg.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_load_screen.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_next_step_reg.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_registration_uactivity.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_restore_pass.xml" value="0.16" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_restore_pass_code.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_select_action.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_select_bottom_nav.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_select_type_acc.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/activity_sign_in_uactivity.xml" value="0.12" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/fragment_account.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/fragment_chat.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/fragment_create.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/fragment_home.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/fragment_ribbon.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/fragment_ribbon_filter.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/item_main_fast_navigation.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/item_main_popular_rv.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/slider_item.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/tab_fragment_announcement.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/tab_fragment_events.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MyUni/app/src/main/res/layout/tab_fragment_people.xml" value="0.12894736842105264" />
+        <entry key="app/src/main/res/layout/activity_analytics.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_announce.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_announce_pub.xml" value="0.23809523809523808" />
+        <entry key="app/src/main/res/layout/activity_bids.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_confirm_code.xml" value="0.14412568306010928" />
+        <entry key="app/src/main/res/layout/activity_create_announce.xml" value="0.35315111401768734" />
+        <entry key="app/src/main/res/layout/activity_create_event.xml" value="0.2621145374449339" />
+        <entry key="app/src/main/res/layout/activity_edit_acc.xml" value="0.12568306010928962" />
+        <entry key="app/src/main/res/layout/activity_event.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_event_analytics.xml" value="0.11612021857923498" />
+        <entry key="app/src/main/res/layout/activity_event_pub.xml" value="0.14412568306010928" />
+        <entry key="app/src/main/res/layout/activity_finish_restore_pass.xml" value="0.14412568306010928" />
+        <entry key="app/src/main/res/layout/activity_info.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_last_step_reg.xml" value="0.16283629659311136" />
+        <entry key="app/src/main/res/layout/activity_next_step_reg.xml" value="0.29382811452172347" />
+        <entry key="app/src/main/res/layout/activity_select_bottom_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_settings_acc.xml" value="0.14412568306010928" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.15437158469945356" />
+        <entry key="app/src/main/res/layout/fragment_create.xml" value="0.15657894736842104" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_my_acc.xml" value="0.15657894736842104" />
+        <entry key="app/src/main/res/layout/fragment_ribbon.xml" value="0.1287568306010929" />
+        <entry key="app/src/main/res/layout/fragment_ribbon_filter.xml" value="0.15657894736842104" />
+        <entry key="app/src/main/res/layout/image_item.xml" value="0.15657894736842104" />
+        <entry key="app/src/main/res/layout/item_announce.xml" value="0.18536438443091569" />
+        <entry key="app/src/main/res/layout/item_announce_from_create.xml" value="0.2812757033169383" />
+        <entry key="app/src/main/res/layout/item_bids.xml" value="0.15089618124194884" />
+        <entry key="app/src/main/res/layout/item_event.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/item_event_from_create.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_main_fast_navigation.xml" value="0.14412568306010928" />
+        <entry key="app/src/main/res/layout/item_main_popular_rv.xml" value="0.24299432477014468" />
+        <entry key="app/src/main/res/layout/item_people_from_ribbon.xml" value="0.14412568306010928" />
+        <entry key="app/src/main/res/layout/slider_item.xml" value="0.14754098360655737" />
+        <entry key="app/src/main/res/layout/tab_fragment_announcement.xml" value="0.15437158469945356" />
+        <entry key="app/src/main/res/layout/tab_fragment_events.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/tab_fragment_people.xml" value="0.14412568306010928" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

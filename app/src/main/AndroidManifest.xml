@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tm.devcraft.myuni">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyUni"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="stateVisible">
+        <activity
+            android:name=".interfaces.singleActivity.AnalyticEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.singleActivity.AnalyticAnnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.singleActivity.AnnounceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.fragments.account.settings.InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.fragments.account.settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.fragments.create.createActivity.EventPublished"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.selectBottomNav.SelectBottomNavActivity"
+            android:exported="true"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".interfaces.registrationU.ConfirmCodeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".interfaces.registrationU.LastStepRegActivity"
+            android:exported="true" />
+        <activity android:name=".interfaces.fragments.chat.activityChat.DialogOpenActivity"/>
+        <activity android:name=".interfaces.registrationU.CompleteReg" />
+        <activity android:name=".interfaces.registrationU.NextStepRegActivity" />
+        <activity android:name=".interfaces.singInU.FinishRestorePassActivity" />
+        <activity android:name=".interfaces.singInU.RestorePassCodeActivity" />
+        <activity android:name=".interfaces.singInU.RestorePassActivity" />
+        <activity android:name=".interfaces.registrationU.SelectTypeAccActivity" />
+        <activity android:name=".interfaces.registrationU.RegistrationUActivity" />
+        <activity
+            android:name=".interfaces.singInU.SignInUActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".interfaces.selectAction.SelectActionAuthActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".interfaces.fragments.create.createActivity.CreateAnnounce"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".interfaces.fragments.create.createActivity.CreateEvent"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".interfaces.fragments.create.createActivity.AnnouncePublished"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".interfaces.singleActivity.EventActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="myuni.su"
+                    android:pathPrefix="/events"
+                    android:scheme="http" />
+                <data
+                    android:host="myuni.su"
+                    android:pathPrefix="/events"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".interfaces.loadScreen.LoadScreenActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyUniLoadScreen"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

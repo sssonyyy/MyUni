@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".interfaces.registrationU.NextStepRegActivity">
+
+        <LinearLayout
+            android:id="@+id/title_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/ic_btn_back" />
+
+            <TextView
+                style="@style/TextScreenTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/RegScreen"
+                android:textAlignment="viewStart"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/form_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_container"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_name_cont"
+                style="@style/TextFieldDefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/NameUser">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RelativeLayout
+                android:id="@+id/select_born_cont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/custom_borderline">
+
+                <TextView
+                    android:id="@+id/selected_born"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"
+                    android:text="@string/BornUser"
+                    android:textSize="15sp"
+                    app:drawableEndCompat="@drawable/ic_calendar" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/select_sex_cont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/custom_borderline">
+
+                <TextView
+                    android:id="@+id/selected_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"
+                    android:text="@string/SelSex"
+                    android:textSize="15sp"
+                    app:drawableEndCompat="@drawable/ic_gender" />
+
+            </RelativeLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_name_school_cont"
+                style="@style/TextFieldDefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/HintNameSchool">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_name_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_name_facultet_cont"
+                    style="@style/TextFieldDefault"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="2"
+                    android:hint="@string/HintFacultet">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/input_name_facultet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_name_course_cont"
+                    style="@style/TextFieldDefault"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/HintCourse">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/input_name_course"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:maxLines="1" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_name_spec_cont"
+                style="@style/TextFieldDefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/HintSpec">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_name_spec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                style="@style/TextFieldDefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/TextVWar"
+                android:textAlignment="center" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_signin"
+                style="@style/MaterialButtonMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="6dp"
+                android:text="@string/BtnNext" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

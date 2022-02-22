@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/container_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="25dp"
+        android:background="@drawable/chat_dialog_open_bg">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="18dp"
+            android:layout_height="16dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_back_from_dialog"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/container_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/btn_back"
+            android:layout_marginStart="22dp"
+            app:cardCornerRadius="48dp">
+
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user_photo" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/container_photo"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Иван Смирнов"
+            android:textColor="@color/colorChatText"
+            android:textSize="16sp" />
+
+        <ToggleButton
+            android:id="@+id/open_menu"
+            android:layout_width="5dp"
+            android:layout_height="23dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_open_sett_dialog"
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_item_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/input_message_field"
+        android:layout_below="@+id/container_top"
+        tools:listitem="@layout/item_message" />
+
+    <RelativeLayout
+        android:id="@+id/input_message_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/chat_dialog_borderline_input_field">
+
+        <ToggleButton
+            android:id="@+id/btn_attachment"
+            android:layout_width="18dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/chat_dialog_attachment"
+            android:textOff=""
+            android:textOn="" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/btn_send"
+            android:layout_toEndOf="@+id/btn_attachment"
+            android:fontFamily="@font/montserrat_regular"
+            android:hint="Сообщение"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/btn_send"
+            android:layout_width="28dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/chat_dialog_btn_send" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interfaces.registrationU.SelectTypeAccActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/bg_select_action"
+        android:background="@drawable/bg_select_type_acc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_btn_back"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="18dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/text_select_act_screen"
+            style="@style/LoadScreenText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="50dp"
+            android:text="@string/myuni_load_screen" />
+
+        <TextView
+            android:id="@+id/text_screen_title"
+            style="@style/TextScreenTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/WhoYou" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_selected_student"
+            style="@style/OutlineMaterialButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Student" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_signin"
+            style="@style/OutlineMaterialButtonNotWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Organ" />
+
+        <TextView
+            android:id="@+id/btn_remember_pass"
+            style="@style/TextHintUr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/waitThisFun" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

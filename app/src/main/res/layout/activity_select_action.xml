@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".interfaces.selectAction.SelectActionAuthActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/bg_select_action"
+        android:scaleType="fitEnd"
+        android:src="@drawable/bg_select_action_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="18dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="200dp">
+
+        <TextView
+            android:id="@+id/text_select_act_screen"
+            style="@style/LoadScreenText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="50dp"
+            android:text="@string/myuni_load_screen"
+            android:visibility="invisible"
+            android:alpha="0"
+            tools:ignore="MissingConstraints" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_sign_in"
+            style="@style/OutlineMaterialButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SignIn"
+            android:visibility="invisible"
+            android:alpha="0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_signin"
+            style="@style/OutlineMaterialButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SingUp"
+            android:visibility="invisible"
+            android:alpha="0" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

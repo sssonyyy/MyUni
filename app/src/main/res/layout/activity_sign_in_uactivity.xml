@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interfaces.singInU.SignInUActivity">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_btn_back"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="18dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="107dp">
+
+        <TextView
+            android:id="@+id/text_select_act_screen"
+            style="@style/LoadScreenText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="50dp"
+            android:text="@string/myuni_load_screen" />
+
+        <TextView
+            android:id="@+id/text_screen_title"
+            style="@style/TextScreenTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/SigInAcc" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_login_cont"
+            style="@style/TextFieldDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/e_mail_sign_in_screen">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_pass_cont"
+            style="@style/TextFieldDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/PassSignIn"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/enter_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_signin"
+            style="@style/MaterialButtonMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SignInBTN" />
+
+        <TextView
+            android:id="@+id/btn_remember_pass"
+            style="@style/BtnRememberPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/BtnRememberPass" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

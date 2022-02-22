@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:background="@drawable/bottom_line_fragment_title"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:alpha="0"
+            android:fontFamily="@font/montserrat_regular"
+            android:hint="@string/HintSearch"
+            android:textColor="@color/black"
+            android:paddingVertical="16dp"
+            android:visibility="gone" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_search"
+            android:layout_width="44dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="12dp"
+            app:backgroundTint="@color/purple_200"
+            app:cornerRadius="50dp"
+            app:icon="@drawable/ic_search_btn" />
+
+        <ToggleButton
+            android:id="@+id/btn_filter"
+            android:layout_width="28dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_filter_btn"
+            android:textOff=""
+            android:textOn=""
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        style="@style/tabStyle"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/title_container"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="4dp"
+        app:tabBackground="@drawable/tabs_indicators"
+        app:tabIndicator="@color/color_grey"
+        app:tabRippleColor="@color/white"
+        app:tabTextAppearance="@style/tabTextStyle">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/announces"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Afisha" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TitlePeople" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Freelance" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/tabs_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/tab_layout"
+        android:paddingHorizontal="16dp" />
+
+</RelativeLayout>
